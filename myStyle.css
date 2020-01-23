@@ -1,0 +1,36 @@
+body {
+    background-image: linear-gradient(90deg , #583544 , #2b3f62); 
+}
+
+p {
+    color: red;
+}
+
+/* Font and text */
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+  }
+
+  /* Box Sizing  */
+
+  input, textarea, select, button {
+    width : 250px;
+    padding: 10px;
+    margin: 0px;
+    margin-bottom: 0;
+   
+  }
+
+  input {
+      color: black;
+      
+    }
+
+h4 {
+    color: white;
+}
+
+form {
+    background: transparent;
+}

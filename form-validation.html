@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="myStyle.css" />
+</head>
+
+<body>
+<center>
+    <form id = "myFormSubmission" name = "myForm" method="GET" >
+        <h4>Full name:</h4>
+        <input type="text" name = "myFullName" placeholder="Hassanine Jaouadi" >
+        <br>
+       <h4> Address:</h4>
+        <input type="text" placeholder="Tunisia" name ="myAddress">
+        
+        <h4>E-mail Adress:</h4>
+        <input type="text" placeholder="hassanine@hotmail.fr" name = myEmail>
+        
+        <h4>Password:</h4>
+        <input type="password" placeholder="********" name="myPassword">
+        
+        <h4>Comment:</h4>
+        <textarea rows="3" cols="50" name="comment" placeholder="Enter text here " > </textarea>
+        <br><br>
+        <input type="submit" value="Send" onclick="return validateForm()"> <br>
+        <br>
+        <input type="reset" id="reset" value="Reset" >
+    </form>
+
+    
+</center>
+
+<script  src = "./formValidation.js"> </script> 
+
+</body>
+
+</html>
